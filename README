@@ -1,0 +1,34 @@
+Aaron Shehan
+Het Patel
+
+Our soruces for the program are:
+The source for our 0-1 algorithm https://www.geeksforgeeks.org/0-1-knapsack-problem-dp-10/
+The source for our fractional algorithm https://www.geeksforgeeks.org/fractional-knapsack-problem/
+
+Our soruces for question 4.a and 4.b are:
+http://www.ccs.neu.edu/home/vip/teach/Algorithms/6_dyn_prog/notes/knapsack/knapsack.pdf
+http://www.columbia.edu/~cs2035/courses/csor4231.F11/greedy.pdf
+
+
+The program to create an input file is called make_input.py. This generates a file called input.txt. Pass in a single command line argument when running this program.
+The command line argument is for the amount of items to be created in the input file. 
+
+How to run make_input.py:
+  python3 make_input.py <item_count>
+  
+  The file is formatted like this:
+   Id Weight Cost Type
+   
+   An example:
+   0 2 30 f
+   1 1 40 f
+   2 3 30 w
+
+The program to find the max value is called knapsack.py. Pass in a single command line argument when running this program.
+The command line argument is for the max weight allowed. This program will read in the input file that make_input.txt generates.
+
+How to run knapsack.py:
+  python3 knapsack.py <max_weight>
+  This program requires an input file to be created first.
+  
+  
